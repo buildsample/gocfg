@@ -13,3 +13,4 @@ install:
 script:
   - go test -v ./... -check.v -check.b
   - ./test-coverage.sh
+build_image: shippable/minv2:beta 
